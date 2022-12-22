@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge ONE - Decodificador de Texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <img class="logo" src="logo.png">
+            <textarea id="texto" class="texto" placeholder="Digite seu texto" cols="70" rows="10" required></textarea>
+            <label class="informativo">&#10069; Apenas letras minúsculas e sem acento</label>
+
+            <ul id="botoes" class="botoes">
+                <button onClick="criptografar()" class="botao-criptografar" id="popUp">Criptografar</button>
+                <button onClick="descriptografar()" class="botao-descriptografar">Descriptografar</button>
+            </ul>
+
+            <section class="descriptografia">
+                <div id="resultado" class="resultado"></div>
+                <div class="imagen">
+                    <img id="imagen-principal" src="imagen.png">
+                </div>
+
+                <div class="sem-texto">
+                    <p id="textos" class="sem-texto-negrito">Nenhuma mensagem encontrada</p>
+                    <p id="textos2" class="sem-texto-normal">Digite um texto que você deseja criptografar ou descriptografar</p>
+                </div>
+                <div id="descriptografia"></div>
+            </section>
+
+        </main>
+
+        <footer>
+            <ul>
+                <li>
+                    <a href="https://github.com/Guipray"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">Guilherme Henrique Eufrásio</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/guilhermeeufrasio/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">Guipray</a>
+                </li>
+            </ul>
+            <p class="copyright">&copy; Copyright Guilherme Eufrásio - 2022</p>
+        </footer>
+    </body>
+</html>
+

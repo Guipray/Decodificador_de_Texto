@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    background: #27c2f1;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    width: 120px;
+    height: 80px;
+    background: #27c2f1;
+    margin-top: 20px;
+}
+
+.texto {
+    color: #0A3871;
+    font-style: normal;
+    font-size: 32px;
+    border: none;
+    background: #27c2f1;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 15%;
+    top: 168px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.texto::placeholder {
+    color: #0A3871;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.informativo {
+    color: #495057;
+    opacity: 0.8;
+    font-size: 13px;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 15%;
+    top: 820px;
+}
+
+.botoes {
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    left: 15%;
+    top: 850px;
+    margin: 0 auto;
+    bottom: auto;
+}
+
+.botao-criptografar {
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    width: 328px;
+    height: 67px;
+    font-size: 16px;
+    border: none;
+    transition: 0.5s;
+}
+
+.botao-criptografar:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.botao-descriptografar {
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.botao-descriptografar:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.descriptografia {
+    position: absolute;
+    width: 400px;
+    height: 889px;
+    left: 75%;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.imagen {
+    margin: 50% 0;
+}
+
+img {
+    width: 336px;
+    height: 304px;
+}
+
+.resultado {
+    border: none;
+    margin: 25px;
+    font-size: 24px;
+    color: #495057;
+    text-align: left;
+    line-height: 29px;
+    overflow-y: scroll;
+    max-height: 85%;
+    padding: 5px;
+}
+
+::-webkit-scrollbar {
+    margin: 0 5px;
+    width: 6px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #248bb4;
+    border: 1.8px solid #185d7e;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0b435e;
+}
+
+::-webkit-scrollbar-track {
+    background: #27c2f1;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+    margin: 10px 0;
+}
+
+.sem-texto {
+    position: absolute;
+    top: 60%;
+    margin: 0 15%;
+}
+
+.sem-texto-negrito {
+    font-weight: bold;
+    font-size: 24px;
+    color: #343A40;
+    margin: 15px 0;
+}
+
+.sem-texto-normal {
+    font-size: 16px;
+    color: #343A40;
+}
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 90%;
+    font-size: 16px;
+    height: 4em;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    transition: 0.5s;
+}
+
+.copiar:hover {
+    opacity: 0.8;
+    background: #2057a0;
+    color: #FFFFFF;
+}
+
+footer {
+    background: linear-gradient(#27c2f1 7.26%, #388a9c 96.03%);
+    position: absolute;
+    padding: 40px 0;
+    top: 100%;
+    width: 100%;
+    height: 33%;
+    display: inline;
+    text-align: center;
+}
+
+footer ul {
+    margin: 5%;
+}
+
+footer li {
+    display: inline;
+    margin: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    height: 25px;
+    width: 80px;
+    margin: -4px 15px;
+}
+
+footer img:hover {
+    opacity: 0.5;
+}
+
+.copyright {
+	font-size: 15px;
+}
