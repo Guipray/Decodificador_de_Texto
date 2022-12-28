@@ -223,3 +223,70 @@ footer img:hover {
 .copyright {
 	font-size: 15px;
 }
+
+@media screen and (max-width: 480px) {
+    .imagen {
+        display: none;
+    }
+
+    .texto, .informativo, .botoes, .descriptografia, .sem-texto, .copiar, footer {
+        position: static;
+    }
+
+    .logo {
+        vertical-align: top;
+    }
+
+    .texto {
+        margin: 5% 10%;
+        width: 80%;
+        line-height: 100%;
+    }
+
+    .informativo {
+        font-size: 12px;
+        width: 100%;
+        margin: 10% 5%;
+    }
+
+    .descriptografia {
+        width: auto;
+        height: 190px;
+        margin: 13% 5%;
+        padding: 5px;
+    }
+
+    .resultado {
+        padding: 0;
+    }
+
+    .botoes {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .botao-descriptografar {
+        margin: 20px 0;
+    }
+
+    footer {
+        height: 140px;
+    }
+
+    .rodape {
+        width: auto;
+        height: 30%;
+        margin: 30% 0;
+    }
+
+    .rodape li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .rodape p {
+        margin-top: 35px;
+    }
+
+}
