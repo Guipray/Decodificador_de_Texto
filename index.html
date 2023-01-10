@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Challenge ONE - Decodificador de Texto</title>
+
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="reset.css">
         <script type="text/javascript" src="index.js"></script>
@@ -12,19 +13,14 @@
 
     <body>
         <main>
-            <img class="logo" src="logo.png">
+            <img class="logo" src="logo.png" alt="Logo da alura">
             <textarea id="texto" class="texto" placeholder="Digite seu texto" cols="70" rows="10" required></textarea>
             <label class="informativo">&#10069; Apenas letras minúsculas e sem acento</label>
-
-            <ul id="botoes" class="botoes">
-                <button onClick="criptografar()" class="botao-criptografar" id="popUp">Criptografar</button>
-                <button onClick="descriptografar()" class="botao-descriptografar">Descriptografar</button>
-            </ul>
 
             <section class="descriptografia">
                 <div id="resultado" class="resultado"></div>
                 <div class="imagen">
-                    <img id="imagen-principal" src="imagen.png">
+                    <img id="imagen-principal" src="imagen.png" alt="Um garoto com uma lupa">
                 </div>
 
                 <div class="sem-texto">
@@ -33,6 +29,11 @@
                 </div>
                 <div id="descriptografia"></div>
             </section>
+
+            <ul id="botoes" class="botoes">
+                <button onClick="criptografar()" class="botao-criptografar" id="popUp">Criptografar</button>
+                <button onClick="descriptografar()" class="botao-descriptografar">Descriptografar</button>
+            </ul>
 
         </main>
 
